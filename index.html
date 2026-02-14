@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monithesh R | AI Research Intern</title>
+    <meta name="description" content="AI Research Intern specializing in Python, PyTorch, FastAPI. Building intelligent AI/ML applications and research systems. Based in Bangalore, India." />
+    <meta name="author" content="Monithesh R" />
+    <meta name="keywords" content="AI Research Intern, Python, PyTorch, FastAPI, Machine Learning, Computer Vision, NLP, Bangalore, India" />
+    <meta property="og:title" content="Monithesh R | AI Research Intern" />
+    <meta property="og:description" content="AI Research Intern specializing in Python, PyTorch, FastAPI. Building intelligent AI/ML applications and research systems." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://monithesh.dev" />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background: #000;
+        overflow: hidden;
+      }
+      #boot-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #000;
+      }
+      #boot-splash .boot-inner {
+        width: min(520px, calc(100vw - 48px));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+      }
+      #boot-splash .boot-mark {
+        width: 160px;
+        height: 160px;
+        display: grid;
+        place-items: center;
+        color: rgba(255, 255, 255, 0.92);
+      }
+      #boot-splash .boot-apple {
+        width: 148px;
+        height: 148px;
+        object-fit: contain;
+        display: block;
+        filter: drop-shadow(0 10px 28px rgba(0, 0, 0, 0.55));
+      }
+      #boot-splash .boot-fallback {
+        display: none;
+      }
+      #boot-splash .boot-bar {
+        width: 260px;
+        height: 4px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.18);
+        overflow: hidden;
+        position: relative;
+      }
+      #boot-splash .boot-bar::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 0%;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.85);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.14);
+        animation: boot-progress 2.25s ease-out infinite;
+      }
+      @keyframes boot-progress {
+        0% {
+          width: 0%;
+          opacity: 0.75;
+        }
+        55% {
+          width: 72%;
+          opacity: 0.9;
+        }
+        82% {
+          width: 88%;
+          opacity: 0.95;
+        }
+        100% {
+          width: 92%;
+          opacity: 0.8;
+        }
+      }
+      #boot-splash.boot-splash--hide {
+        animation: boot-fade-out 0.32s ease-out forwards;
+      }
+      @keyframes boot-fade-out {
+        to {
+          opacity: 0;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #boot-splash .boot-bar::before {
+          animation: none;
+          width: 100%;
+          opacity: 0.55;
+        }
+        #boot-splash.boot-splash--hide {
+          animation: none;
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="boot-splash" aria-hidden="true">
+      <div class="boot-inner">
+        <div class="boot-mark" aria-hidden="true">
+          <!-- To show a true mac-style Apple mark, add your own asset at: public/apple-mark.svg -->
+          <img
+            class="boot-apple"
+            src="/apple-logo.svg"
+            alt=""
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+          />
+
+          <!-- Fallback mark if /apple-mark.svg isn't present -->
+          <svg class="boot-fallback" width="148" height="148" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M37 8C22.088 8 10 20.088 10 35s12.088 27 27 27 27-12.088 27-27S51.912 8 37 8Z" fill="rgba(255,255,255,0.92)" opacity="0.12" />
+            <path d="M24.6 42.6c2.8 3.2 7 5.4 12.2 5.4 6.9 0 12.4-3.7 12.4-9.3 0-5.1-3.6-7.1-10.6-8.5l-3.2-.6c-3.7-.7-5.1-1.6-5.1-3.4 0-2.2 2.5-3.8 6.2-3.8 3.8 0 6.4 1.4 8.1 3.5l4.1-3.2c-2.7-3.6-6.9-5.8-12.3-5.8-6.7 0-11.9 3.6-11.9 9 0 4.7 3.3 7.1 10 8.4l3.3.6c4 .8 5.6 1.7 5.6 3.6 0 2.4-2.7 4-6.7 4-4.2 0-7.4-1.7-9.6-4.3l-4.5 3.4Z" fill="rgba(255,255,255,0.92)" />
+          </svg>
+        </div>
+        <div class="boot-bar"></div>
+      </div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
