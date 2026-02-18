@@ -26,6 +26,7 @@ import ExperienceSection from '@/components/ExperienceSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import SkillsSection from '@/components/SkillsSection';
 import ContactSection from '@/components/ContactSection';
+import VoiceAssistant from '@/components/VoiceAssistant';
 
 type WindowId = 'about' | 'experience' | 'projects' | 'skills' | 'contact' | null;
 
@@ -226,6 +227,9 @@ const Index = () => {
 
       {/* macOS Dock */}
       <Dock onOpenWindow={openWindow} />
+
+      {/* Voice Assistant */}
+      <VoiceAssistant />
     </div>
   );
 };

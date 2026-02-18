@@ -6,6 +6,7 @@ import ExperienceSection from '@/components/ExperienceSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import SkillsSection from '@/components/SkillsSection';
 import ContactSection from '@/components/ContactSection';
+import VoiceAssistant from '@/components/VoiceAssistant';
 import resumePdf from '@/assets/Monithesh_R_resume.pdf';
 import monitheshPhoto from '@/assets/somnath-photo.jpg';
 import wallpaper from '@/assets/wallpaper.jpg';
@@ -200,6 +201,9 @@ const MobileLayout: React.FC = () => {
         <p>© 2026 Monithesh R. All rights reserved.</p>
         <p className="mt-1 text-xs">Made with ❤️ using React & Tailwind CSS</p>
       </footer>
+
+      {/* Voice Assistant */}
+      <VoiceAssistant />
     </div>
   );
 };
