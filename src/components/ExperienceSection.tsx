@@ -15,8 +15,8 @@ interface Experience {
 const experiences: Experience[] = [
   {
     company: "Indian Institute of Science (IISc) Bangalore",
-    role: "AI Research Intern",
-    period: "Sept 2025 – Present",
+    role: "AI Developer Intern",
+    period: "Sept 2025 – Feb 2026",
     location: "Bengaluru, KA",
     type: "Internship",
     tech: "Python, PyTorch, FastAPI, LLMs, RAG",

@@ -41,10 +41,10 @@ const AboutSection: React.FC = () => {
             </div>
             <div className="flex items-center gap-2 mb-4">
               <Code2 className="w-4 h-4 text-blue-400" />
-              <p className="text-blue-400 font-medium">AI Research Intern</p>
+              <p className="text-blue-400 font-medium">AI Developer Intern</p>
             </div>
             <p className="text-white/80 leading-relaxed mb-4">
-  Hey! I'm an AI Research Intern passionate about building intelligent systems that solve real-world problems. 
+  Hey! I'm an AI Developer Intern passionate about building intelligent systems that solve real-world problems. 
   I specialize in developing multimodal AI frameworks, agentic systems, and machine learning solutions.
 </p>
 

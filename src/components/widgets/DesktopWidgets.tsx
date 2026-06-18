@@ -138,7 +138,7 @@ export const ProfileWidget: React.FC<{ onClick?: () => void }> = ({ onClick }) =
         </div>
         <div>
           <div className="text-white font-semibold text-base">Monithesh R</div>
-          <div className="text-white/70 text-xs">AI Research Intern</div>
+          <div className="text-white/70 text-xs">AI Developer Intern</div>
         </div>
       </div>
       <div className="flex items-center gap-1 text-white/50 text-xs mb-2">
@@ -388,16 +388,8 @@ export const ProjectsWidget: React.FC<{ onClick?: () => void; dataTour?: string 
 
 // Experience Widget (Mission Control-style)
 export const ExperienceWidget: React.FC<{ onClick?: () => void; dataTour?: string }> = ({ onClick, dataTour }) => {
-  const startDate = new Date(2025, 8, 1); // Sept 2025
-  const nowDate = new Date();
-  const totalMonths =
-    (nowDate.getFullYear() - startDate.getFullYear()) * 12 +
-    (nowDate.getMonth() - startDate.getMonth());
-  const years = Math.max(0, Math.floor(totalMonths / 12));
-  
-  // Show months if less than 1 year, otherwise show years
-  const experienceLabel = years >= 1 ? `${years}+` : `${totalMonths}`;
-  const experienceUnit = years >= 1 ? 'years' : 'months';
+  const experienceLabel = '6';
+  const experienceUnit = 'months';
 
   const cards = [
     {
@@ -410,8 +402,8 @@ export const ExperienceWidget: React.FC<{ onClick?: () => void; dataTour?: strin
     },
     {
       company: 'Indian Institute of Science',
-      role: 'AI Research Intern',
-      period: 'Sep 2025 – Present',
+      role: 'AI Developer Intern',
+      period: 'Sep 2025 – Feb 2026',
       location: 'Bangalore',
       type: 'Research',
       accent: 'from-cyan-500/35 to-indigo-500/30',
